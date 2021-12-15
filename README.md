@@ -65,6 +65,8 @@ const customCore = new LeoCore({
 customCore.start();
 ```
 
+[更多配置项](https://github.com/JDFED/leo/blob/master/packages/leo-core/src/config/staticConfig.ts)
+
 本地调试
 
 ```shell script
