@@ -14,7 +14,7 @@ leo 通过提供模板，构建器统一扩展来打破部门、团队之间模�
 leo 提供了丰富的配置项用于快速完成一套定制化的脚手架
 
 ```shell script
-npm i @leo/core
+npm i @jdfed/leo-core
 ```
 
 新建一个脚手架项目目录如下
@@ -41,7 +41,7 @@ yourProject
 ```js
 #!/usr/bin/env node
 
-const LeoCore = require('@leo/core').default;
+const LeoCore = require('@jdfed/leo-core').default;
 
 const customConfig = {
   // 模板仓库group
