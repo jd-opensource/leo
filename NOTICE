@@ -1,0 +1,32 @@
+This project uses the functions provided by the following packages. Please find the Copyright Notice and License Texts of the packages. 
+
+cross-env		https://github.com/kentcdodds/cross-env/blob/master/LICENSE
+del		https://github.com/sindresorhus/del/blob/main/license
+f2elint		https://github.com/alibaba/f2e-spec/blob/main/LICENSE
+gulp		https://github.com/gulpjs/gulp/blob/master/LICENSE
+lerna		https://github.com/lerna/lerna/blob/main/LICENSE
+typescript		https://github.com/microsoft/TypeScript/blob/main/LICENSE.txt
+axios		https://github.com/axios/axios/blob/master/LICENSE
+compare-versions	https://github.com/omichelsen/compare-versions/blob/master/LICENSE
+fs-extra		https://github.com/jprichardson/node-fs-extra/blob/master/LICENSE
+global-dirs	https://github.com/sindresorhus/global-dirs/blob/main/license
+lodash.merge	https://github.com/lodash/lodash/blob/master/LICENSE
+npminstall	https://github.com/cnpm/npminstall/blob/master/LICENSE.txt
+signale		https://github.com/klaussinani/signale/blob/master/license.md
+command-exists	https://github.com/mathisonian/command-exists/blob/master/LICENSE
+consolidate	https://github.com/tj/consolidate.js#license
+cross-spawn	https://github.com/moxystudio/node-cross-spawn/blob/master/LICENSE
+download-git-repo	https://gitlab.com/flippidippi/download-git-repo#license
+handlebars	https://github.com/handlebars-lang/handlebars.js/blob/master/LICENSE
+inquirer		https://github.com/SBoudrias/Inquirer.js/blob/master/LICENSE
+lodash.get	https://github.com/lodash/lodash/blob/master/LICENSE
+minimatch	https://github.com/isaacs/minimatch/blob/master/LICENSE
+multimatch	https://github.com/sindresorhus/multimatch/blob/main/license
+ora		https://github.com/sindresorhus/ora/blob/main/license
+simple-git	https://github.com/steveukx/git-js/blob/main/LICENSE
+lodash.clonedeep	https://github.com/lodash/lodash/blob/master/LICENSE
+lodash.set		https://github.com/lodash/lodash/blob/master/LICENSE
+lodash.unset	https://github.com/lodash/lodash/blob/master/LICENSE
+minimist		https://github.com/substack/minimist/blob/master/LICENSE
+semver		https://github.com/npm/node-semver/blob/main/LICENSE
+commander	https://github.com/tj/commander.js/blob/master/LICENSE

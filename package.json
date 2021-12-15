@@ -1,0 +1,56 @@
+{
+  "name": "leo",
+  "author": "JDFED",
+  "contributors": [
+    {
+      "name": "JDFE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDFED/leo.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev:core": "cross-env DIR=leo-core gulp",
+    "dev:cli": "cross-env DIR=leo-cli gulp",
+    "dev:generator": "cross-env DIR=leo-generator gulp",
+    "dev:utils": "cross-env DIR=leo-utils gulp",
+    "build:core": "cross-env DIR=leo-core gulp build",
+    "build:cli": "cross-env DIR=leo-cli gulp build",
+    "build:generator": "cross-env DIR=leo-generator gulp build",
+    "build:utils": "cross-env DIR=leo-utils gulp build",
+    "build:all": "npm run build:core && npm run build:cli && npm run build:generator && npm run build:utils",
+    "f2elint-scan": "f2elint scan",
+    "f2elint-fix": "f2elint fix"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "del": "^6.0.0",
+    "f2elint": "^1.2.1",
+    "gulp": "^4.0.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "lerna": "^3.22.1",
+    "typescript": "^4.4.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "f2elint commit-file-scan",
+      "commit-msg": "f2elint commit-msg-scan"
+    }
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

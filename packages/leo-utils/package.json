@@ -1,0 +1,42 @@
+{
+  "name": "@leo/leo-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "JDFED",
+  "contributors": [
+    {
+      "name": "JDFE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDFED/leo.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@leo/lint": "^0.1.5",
+    "@types/fs-extra": "^9.0.12",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/node": "^16.4.4",
+    "@types/signale": "^1.4.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cached": "^1.1.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-remember": "^1.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compare-versions": "^3.6.0",
+    "fs-extra": "^10.0.0",
+    "global-dirs": "^3.0.0",
+    "lodash.merge": "^4.6.2",
+    "npminstall": "^4.11.0",
+    "signale": "^1.4.0"
+  }
+}

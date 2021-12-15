@@ -1,0 +1,67 @@
+{
+  "name": "@leo/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "JDFED",
+  "contributors": [
+    {
+      "name": "JDFE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDFED/leo.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@acot/find-chrome": "0.0.12",
+    "@leo/leo-utils": "^1.0.12",
+    "@leo/report": "^1.0.1",
+    "@types/compare-versions": "^3.3.0",
+    "@types/lodash.clonedeep": "^4.5.6",
+    "@types/lodash.set": "^4.3.6",
+    "@types/semver": "^7.3.5",
+    "@types/update-notifier": "^5.0.0",
+    "axios": "^0.19.0",
+    "command-exists": "^1.2.9",
+    "compare-versions": "^3.6.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^9.1.0",
+    "global-dirs": "^3.0.0",
+    "inquirer": "8.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "lodash.merge": "^4.6.2",
+    "lodash.set": "^4.3.2",
+    "lodash.unset": "^4.5.2",
+    "module-exists": "^0.4.0",
+    "npminstall": "^4.10.0",
+    "ora": "^5.3.0",
+    "semver": "^7.3.5",
+    "signale": "^1.4.0",
+    "simple-git": "^2.36.2",
+    "update-notifier": "^5.1.0",
+    "user-home": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/cross-spawn": "^6.0.2",
+    "@types/figlet": "^1.2.1",
+    "@types/fs-extra": "^9.0.8",
+    "@types/inquirer": "^7.3.1",
+    "@types/lodash.get": "^4.4.6",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/lodash.unset": "^4.5.6",
+    "@types/node": "^14.14.31",
+    "@types/puppeteer": "^5.4.3",
+    "@types/qs": "^6.9.6",
+    "@types/signale": "^1.4.1",
+    "@types/user-home": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
