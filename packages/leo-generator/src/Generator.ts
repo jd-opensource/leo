@@ -8,7 +8,7 @@ import consolidate from 'consolidate';
 import Handlebars from 'handlebars';
 import multimatch from 'multimatch';
 import simpleGit from 'simple-git';
-import { log as leoLog } from '@leo/leo-utils';
+import { log as leoLog } from '@jdfed/leo-utils';
 import { IFiles, IMetaData, IFilterFilesMap, IHelper } from './interface';
 
 const log = leoLog.scope('generator');

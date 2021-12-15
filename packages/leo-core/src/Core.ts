@@ -15,7 +15,7 @@ import merge from 'lodash.merge';
 import simpleGit from 'simple-git';
 import inquirer from 'inquirer';
 import axios from 'axios';
-import { loadPkg, log as leoLog } from '@leo/leo-utils';
+import { loadPkg, log as leoLog } from '@jdfed/leo-utils';
 import { getDefaultConfig, IConfig, IActionArgs, localStaticConfig, configStore } from './config';
 import { IBuilder, IVirtualPath, ICommonParams, ILeoCaller } from './interface';
 

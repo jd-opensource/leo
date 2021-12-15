@@ -22,7 +22,7 @@ export interface IRC {
   isPrePublishParallel?: boolean;
 
   // 对应事后，在rc中定义
-  builder: {
+  builder?: {
     name: string;
     version?: string;
     hooks?: {
@@ -43,10 +43,6 @@ export interface IRC {
   };
 }
 
-const defaultRC: IRC = {
-  builder: {
-    name: '@leo/leo-react-builder',
-  },
-};
+const defaultRC: IRC = {};
 
 export default defaultRC;

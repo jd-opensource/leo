@@ -1,5 +1,5 @@
 {
-  "name": "@leo/core",
+  "name": "@jdfed/leo-core",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -15,11 +15,10 @@
     "url": "https://github.com/JDFED/leo.git"
   },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@acot/find-chrome": "0.0.12",
-    "@leo/leo-utils": "^1.0.12",
-    "@leo/report": "^1.0.1",
+    "@jdfed/leo-utils": "^1.0.0",
     "@types/compare-versions": "^3.3.0",
     "@types/lodash.clonedeep": "^4.5.6",
     "@types/lodash.set": "^4.3.6",

@@ -1,5 +1,5 @@
 {
-  "name": "@leo/leo-utils",
+  "name": "@jdfed/leo-utils",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -14,7 +14,7 @@
     "url": "https://github.com/JDFED/leo.git"
   },
   "license": "MIT",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@leo/lint": "^0.1.5",
     "@types/fs-extra": "^9.0.12",

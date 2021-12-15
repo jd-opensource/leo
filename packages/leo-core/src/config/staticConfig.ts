@@ -23,11 +23,11 @@ export const staticConfig: IStaticConfig = {
   npmRegistry: 'https://registry.npmjs.org/',
   remoteConfigUrl: ``,
   cli: {
-    name: '@leo/cli',
-    version: '1.0.0',
+    name: '@jdfed/leo-cli',
+    version: '1.0.1',
   },
   generator: {
-    name: '@leo/generator',
+    name: '@jdfed/leo-generator',
     version: '1.0.0',
   },
   commands: {

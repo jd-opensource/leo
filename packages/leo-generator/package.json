@@ -1,5 +1,5 @@
 {
-	"name": "@leo/generator",
+	"name": "@jdfed/leo-generator",
 	"version": "1.0.0",
 	"description": "",
 	"main": "lib/index.js",
@@ -17,9 +17,9 @@
 		"url": "https://github.com/JDFED/leo.git"
 	},
 	"license": "MIT",
-	"private": true,
+	"private": false,
 	"dependencies": {
-		"@leo/leo-utils": "^1.0.12",
+		"@jdfed/leo-utils": "^1.0.0",
 		"command-exists": "^1.2.9",
 		"consolidate": "^0.16.0",
 		"cross-spawn": "^7.0.3",

@@ -2,7 +2,7 @@ import commander from 'commander';
 import { ICommandSettingAlone, ICommandSettings, IActionArgs } from './interface';
 import get from 'lodash.get';
 import merge from 'lodash.merge';
-import { log as leoLog, loadPkg } from '@leo/leo-utils';
+import { log as leoLog, loadPkg } from '@jdfed/leo-utils';
 import { getUnexpectedOptions, rebuildCommanderArgs } from './utils';
 
 const log = leoLog.scope('cli');
