@@ -8,7 +8,6 @@ leo 脚手架是一款覆盖前端开发全链路、可扩展、可定制的终�
 
 leo 通过提供模板，构建器统一扩展来打破部门、团队之间模板和构建复用的壁垒，提高了新团队快速沉淀规范的效率，并且通过生成器和构建器分离，解耦了代码与构建配置的关联，使得模板和构建配置可以一对多或者多对一，减少了 webpack 等构建工具配置的困扰。
 
-
 ## 如何使用
 
 leo 提供了丰富的配置项用于快速完成一套定制化的脚手架
@@ -65,12 +64,18 @@ const customCore = new LeoCore({
 customCore.start();
 ```
 
-[更多配置项](https://github.com/JDFED/leo/blob/master/packages/leo-core/src/config/staticConfig.ts)
+[更多配置项](./docs/config.md)
 
 本地调试
 
 ```shell script
-npm link 
+npm link
 
 yourCommand -h
 ```
+
+## 更多文档
+
+1. [config](./docs/config.md)
+2. [leorc](./docs/leorc.md)
+3. [meta](./docs/meta.md)
